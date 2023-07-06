@@ -36,6 +36,22 @@ const mensajesDeError = {
         valueMissing: "El campo nacimiento no puede estar vacio",
         customError: "Debes tener al menos 18 años de edad",
     },
+    numero: {
+        valueMissing: "Este campo no puede estar vacio",
+        patternMismatch: "El formato requerido es XXXXXXXXXX 10 numeros",
+    },
+    direccion: {
+        valueMissing: "Este campo no puede estar vacio",
+        patternMismatch: "La direccion debe contener entre 10 y 40 caracteres",
+    },
+    ciudad: {
+        valueMissing: "Este campo no puede estar vacio",
+        patternMismatch: "La ciudad debe contener entre 10 y 40 caracteres",
+    },
+    estado: {
+        valueMissing: "Este campo no puede estar vacio",
+        patternMismatch: "El estado debe contener entre 10 y 40 caracteres",
+    },
 };
   
 const validadores = {
